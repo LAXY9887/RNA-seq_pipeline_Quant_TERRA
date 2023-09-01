@@ -20,3 +20,5 @@ This pipeline is consists of 3 major parts, and the figure below illustrates the
 ◆ Additional: Convert the alignment file (BAM) to coverage file (bigwig) by **deeptools**.
 
 ![RNA-seq pipeline white](https://github.com/LAXY9887/RNA-seq_pipeline_Quant_TERRA/assets/109268110/69872114-15ac-49f2-9945-c6223f4ecb88 "workflow")
+
+## Part1: Collect data from NCBI
