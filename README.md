@@ -25,7 +25,7 @@ This pipeline is consists of 3 major parts, and the figure below illustrates the
 
 ### Searching the database
 
-You can search published RNA-seq datasets from [NCBI GEO datasets](https://www.ncbi.nlm.nih.gov/gds)
+You can search published RNA-seq datasets from [NCBI GEO datasets](https://www.ncbi.nlm.nih.gov/gds).
 
 For example, I had search "ALT osteosarcoma RNA-seq" on the database and selected one for the analysis.
 
@@ -51,6 +51,8 @@ The experiment details were recorded in a sample information page.
 
 You can check if the tissue, cell line or experiment condition meet your requirements.
 
+**The Dataset information page**
+
 ![sample page](https://github.com/LAXY9887/RNA-seq_pipeline_Quant_TERRA/assets/109268110/a79c1b5c-ab8d-4885-9c41-9aa6746890b5)
 
 Click the SRA link at the bottom of the page to access the SRA ID.
@@ -65,7 +67,17 @@ The SRA ID can be found at the table below, you should record this ID for downlo
 
 ![SRA page](https://github.com/LAXY9887/RNA-seq_pipeline_Quant_TERRA/assets/109268110/26eed5aa-319f-4e4a-afa5-da355013de3f)
 
-You can also click the `SRA Run Selector` link to select multiple datasets.
+You can also click the SRA Run **Selector** link at the dataset information page to select multiple datasets.
+
+![SRA selector link](https://github.com/LAXY9887/RNA-seq_pipeline_Quant_TERRA/assets/109268110/05331d89-114d-4597-830e-ae69b260ed61)
+
+Check any sample you want and download the SRA ID list by clicking **Accesstion list**.
+
+To download the table format, click the **Metadata**.
+
+![SRA selector](https://github.com/LAXY9887/RNA-seq_pipeline_Quant_TERRA/assets/109268110/92bf257a-86bd-4ab9-9f88-110b15774691)
+
+You can get a SRA ID list (text file) that record each accession number like this:
 
 
 
