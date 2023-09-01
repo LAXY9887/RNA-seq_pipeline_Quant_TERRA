@@ -47,11 +47,23 @@ To download one of the sequencing raw data, click a sample in the page.
 
 ![data samples](https://github.com/LAXY9887/RNA-seq_pipeline_Quant_TERRA/assets/109268110/599ff85d-14ba-4702-a502-2991807e4aef)
 
-The experiment details were recorded in a sample information page.
+The experiment details were recorded in a sample information page. 
 
-![data samples](https://github.com/LAXY9887/RNA-seq_pipeline_Quant_TERRA/assets/109268110/10545f0b-1e9a-4b8d-977b-b370b90650d2)
+You can check if the tissue, cell line or experiment condition meet your requirements.
 
+![sample page](https://github.com/LAXY9887/RNA-seq_pipeline_Quant_TERRA/assets/109268110/a79c1b5c-ab8d-4885-9c41-9aa6746890b5)
 
+Click the SRA link at the bottom of the page to access the SRA ID.
+
+![SRA ID fetch](https://github.com/LAXY9887/RNA-seq_pipeline_Quant_TERRA/assets/109268110/fa0929ef-b773-40b1-9575-7b9efeba2048)
+
+In a SRA information page, you can see the information about sequencing library preparation.
+
+It is very important message that will be useful in the later analysis.
+
+The SRA ID can be found at the table below, you should record this ID for downloading.
+
+![SRA page](https://github.com/LAXY9887/RNA-seq_pipeline_Quant_TERRA/assets/109268110/26eed5aa-319f-4e4a-afa5-da355013de3f)
 
 ## Reference
 
