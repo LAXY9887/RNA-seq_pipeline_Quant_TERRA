@@ -41,7 +41,7 @@ I had used this dataset to analysis the TERRA (and gene) expression difference.
 
 ![datasets info](https://github.com/LAXY9887/RNA-seq_pipeline_Quant_TERRA/assets/109268110/5e940c90-c99a-44a6-b364-3add2fcede03)
 
-### Downloading the data
+### Searching the data
 
 To download one of the sequencing raw data, click a sample in the page.
 
@@ -64,6 +64,12 @@ It is very important message that will be useful in the later analysis.
 The SRA ID can be found at the table below, you should record this ID for downloading.
 
 ![SRA page](https://github.com/LAXY9887/RNA-seq_pipeline_Quant_TERRA/assets/109268110/26eed5aa-319f-4e4a-afa5-da355013de3f)
+
+You can also click the `SRA Run Selector` link to select multiple datasets.
+
+
+
+### Downloading the data
 
 ## Reference
 
