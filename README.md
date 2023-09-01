@@ -10,7 +10,7 @@ This repo is a RNA-seq pipeline that can quantify TERRA expression level from di
 
 ## Requirement
 1. SRAToolkit
-2. TrimGalore
+2. TrimGalore!
 3. Cutadapt
 4. fastqc
 5. STAR
