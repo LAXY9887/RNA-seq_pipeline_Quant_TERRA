@@ -23,6 +23,8 @@ This pipeline is consists of 3 major parts, and the figure below illustrates the
 
 ## Part1: Collect data from NCBI
 
+### Searching the database
+
 You can search published RNA-seq datasets from [NCBI GEO datasets](https://www.ncbi.nlm.nih.gov/gds)
 
 For example, I had search "ALT osteosarcoma RNA-seq" on the database and selected one for the analysis.
@@ -38,6 +40,18 @@ Here I had choose a study about gene fusion events in different types of human c
 I had used this dataset to analysis the TERRA (and gene) expression difference. 
 
 ![datasets info](https://github.com/LAXY9887/RNA-seq_pipeline_Quant_TERRA/assets/109268110/5e940c90-c99a-44a6-b364-3add2fcede03)
+
+### Downloading the data
+
+To download one of the sequencing raw data, click a sample in the page.
+
+![data samples](https://github.com/LAXY9887/RNA-seq_pipeline_Quant_TERRA/assets/109268110/599ff85d-14ba-4702-a502-2991807e4aef)
+
+The experiment details were recorded in a sample information page.
+
+![data samples](https://github.com/LAXY9887/RNA-seq_pipeline_Quant_TERRA/assets/109268110/10545f0b-1e9a-4b8d-977b-b370b90650d2)
+
+
 
 ## Reference
 
