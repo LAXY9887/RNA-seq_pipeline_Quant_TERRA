@@ -9,12 +9,12 @@ This repo is a RNA-seq pipeline that can quantify TERRA expression level from di
 
 
 ## Requirement
-1. SRAToolkit
-2. TrimGalore!
-3. Cutadapt
-4. fastqc
-5. STAR
-6. samtools
-7. deeptools
-8. htseq-count
-9. telomerehunter
+1. SRAToolkit (v2.11.1)
+2. TrimGalore! (v0.6.3)
+3. Cutadapt (v2.3)
+4. fastqc (v0.12.1)
+5. STAR (2.7.9)
+6. samtools (v1.13)
+7. deeptools (v3.3.1)
+8. htseq-count (Python3.8)
+9. telomerehunter (R4.2)
