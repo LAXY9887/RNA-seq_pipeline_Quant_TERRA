@@ -5,8 +5,9 @@ This repo is a RNA-seq pipeline that can quantify TERRA expression level from di
 <https://github.com/LAXY9887/RNA-seq_pipeline_Quant_TERRA/archive/refs/heads/main.zip>
 
 ## Usage
-1. First, you need to download the SRA files by SRAToolKit.
-
+1. First, you need to download the SRA files by SRAToolKit manually. Do this by the `prefetch` command.
+   
+```prefetch SRR_ID -o SRR_ID.sra```
 
 ## Requirement
 1. SRAToolkit (v2.11.1)
