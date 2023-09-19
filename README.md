@@ -11,7 +11,9 @@ This repo is a RNA-seq pipeline that can quantify TERRA expression level from di
 
  _**※ This is because NCHC nodes are not allowed for connecting to the Internet.**_
  
- _**※ Otherwise, it can be downloaded and exreacted to fastq by simply doing the `fastq-dump --split-files SRR_ID` command.**_
+ _**※ Otherwise, it can be downloaded and exreacted to fastq by simply doing the command:**_
+
+   ``` fastq-dump --split-files SRR_ID -O /path/to/output/dir/ ```
 
 ## Requirement
 1. SRAToolkit (v2.11.1)
