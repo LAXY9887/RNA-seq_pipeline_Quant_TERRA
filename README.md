@@ -7,7 +7,11 @@ This repo is a RNA-seq pipeline that can quantify TERRA expression level from di
 ## Usage
 1. First, you need to download the SRA files by SRAToolKit manually. Do this by the `prefetch` command.
    
-```prefetch SRR_ID -o SRR_ID.sra```
+   ```prefetch SRR_ID -o SRR_ID.sra```
+
+ _**※ This is because NCHC nodes are not allowed for connecting to the Internet.**_
+ 
+ _**※ Otherwise, it can be downloaded and exreacted to fastq by simply doing the `fastq-dump --split-files SRR_ID` command.**_
 
 ## Requirement
 1. SRAToolkit (v2.11.1)
