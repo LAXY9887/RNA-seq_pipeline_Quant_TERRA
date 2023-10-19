@@ -8,12 +8,12 @@
 #SBATCH -e ./reports/mergeBamC_err.txt
 
 # Software
-samtool=/opt/ohpc/Taiwania3/pkg/biology/SAMTOOLS/samtools_v1.15.1/bin/samtools
-bamcoverage=/opt/ohpc/Taiwania3/pkg/biology/deepTools/deepTools_v3.3.1/bin/bamCoverage
+samtool="/opt/ohpc/Taiwania3/pkg/biology/SAMTOOLS/SAMTOOLS_v1.13/bin/samtools"
+bamcoverage="/opt/ohpc/Taiwania3/pkg/biology/deepTools/deepTools_v3.3.1/bin/bamCoverage"
 
 # User vars
 mergeBAM=$1
-outDir=/staging/biology/ls807terra/Nanopore_seq/Pipelines/Pipeline_Tissue_batch3/bw_Merged
+outDir=$2
 
 # Program
 $samtool sort -@ 14 ${mergeBAM} -o ${mergeBAM/.bam/.sorted.bam}

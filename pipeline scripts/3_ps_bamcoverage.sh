@@ -1,8 +1,8 @@
 #!/bin/bash
 
 ## Software
-bamcoverage=/opt/ohpc/Taiwania3/pkg/biology/deepTools/deepTools_v3.3.1/bin/bamCoverage
-bigwig2bdg=/home/ls807terra/Programs/UCSC_tools/bigWigToBedGraph
+bamcoverage="/opt/ohpc/Taiwania3/pkg/biology/deepTools/deepTools_v3.3.1/bin/bamCoverage"
+bigwig2bdg="/staging/biology/ls807terra/0_Programs/UCSC_tools/bigWigToBedGraph"
 
 ## Inputs
 BAM=$1

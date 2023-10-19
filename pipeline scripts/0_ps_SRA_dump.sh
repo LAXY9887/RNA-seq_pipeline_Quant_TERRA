@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Software
-fastqdump=/home/ls807terra/Programs/SRA_Toolkit/SRAToolkit_v2.11.1/bin/fastq-dump
+fastqdump="/opt/ohpc/Taiwania3/pkg/biology/SRAToolkit/sratoolkit_v2.11.1/bin/fastq-dump"
 
 # User vars
 SRA_file=$1

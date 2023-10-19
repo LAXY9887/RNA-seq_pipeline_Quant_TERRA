@@ -142,4 +142,3 @@ dependencies:
       - cython==3.0.4
       - pypdf2==3.0.1
       - typing-extensions==4.8.0
-prefix: /staging/biology/ls807terra/0_Programs/anaconda3/envs/RNAseq_quantTERRA

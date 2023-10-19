@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Software and settings
-telomerehunter=/home/ls807terra/Programs/anaconda3/envs/env_TelomereHunter/bin/telomerehunter
+telomerehunter="/staging/biology/ls807terra/0_Programs/anaconda3/envs/telomereHunter/bin/telomerehunter"
 
 # User vars
 cytoband=$1

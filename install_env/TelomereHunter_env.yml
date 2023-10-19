@@ -1,0 +1,29 @@
+name: telomereHunter
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_gnu
+  - ca-certificates=2023.7.22=hbcca054_0
+  - certifi=2019.11.28=py27h8c360ce_1
+  - libgcc-ng=13.2.0=h807b86a_2
+  - libgomp=13.2.0=h807b86a_2
+  - libzlib=1.2.13=hd590300_5
+  - ncurses=5.9=10
+  - openssl=1.0.2u=h516909a_0
+  - pip=20.1.1=pyh9f0ad1d_0
+  - python=2.7.12=2
+  - python_abi=2.7=1_cp27mu
+  - readline=6.2=0
+  - setuptools=44.0.0=py27_0
+  - sqlite=3.13.0=1
+  - tk=8.5.19=2
+  - wheel=0.37.1=pyhd8ed1ab_0
+  - zlib=1.2.13=hd590300_5
+  - pip:
+      - numpy==1.16.6
+      - pypdf2==1.28.6
+      - pysam==0.20.0
+      - telomerehunter==1.1.0
