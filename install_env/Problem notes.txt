@@ -1,0 +1,77 @@
+Problem 1:
+
+libpng15 not found, when installing devtools and some others.
+
+It possible that you have already install libpng, but R can not find it.
+
+Because it usually recongizes the libpng15.so, and you probably have another version. 
+
+Solution:
+
+Before running install_R_packages_RNAseq_quantTERRA.R
+
+1. Make sure that there is libpng installed in your conda enviroment.
+
+ conda install libpng 
+
+2. Find it under /your/path/to/anaconda3/env/your_env/lib/
+
+ For example. I have these file under my env path 
+ 
+ ls ~/anaconda3/env/TEST_env/lib/ | grep png
+ 
+ libpng16.a
+ libpng16.so
+ libpng16.so.16
+ libpng16.so.16.39.0
+ libpng.a
+ libpng.so
+
+ The version of my libpng is 16 not 15, so R can not find it.
+ 
+3. Create a softlink that named "libpng15.so" but were direct to libpng16.so
+
+ Build a softlink 
+
+ ln -s libpng16.so.16.39.0 libpng15.so
+ 
+4. Now R should find libpng15 properly.
+
+Problem 2:
+
+PDF plot have error while doing telomerehunter.
+
+It is because plenty of R script used in telomerehunter lacks "library(ggplot2)"
+
+Therefore the error message often seem were "there is no function ggplot()" or "there is no function theme()"
+
+R script path: 
+/path/to/your/telomereHunter_env/lib/python2.7/site-packages/telomerehunter/
+
+Search these R script:
+
+ `find /path/to/your/telomereHunter_env/* -name "*.R"`
+ 
+For example, we have these R scripts:
+telomereHunter/lib/python2.7/site-packages/telomerehunter/plot_gc_content_simple.R
+telomereHunter/lib/python2.7/site-packages/telomerehunter/TVR_context_summary_tables.R
+telomereHunter/lib/python2.7/site-packages/telomerehunter/plot_tel_content.R
+telomereHunter/lib/python2.7/site-packages/telomerehunter/plot_repeat_frequency_intratelomeric.R
+telomereHunter/lib/python2.7/site-packages/telomerehunter/plot_spectrum_summary_simple.R
+telomereHunter/lib/python2.7/site-packages/telomerehunter/summary_log2.R
+telomereHunter/lib/python2.7/site-packages/telomerehunter/plot_unmapped_summary.R
+telomereHunter/lib/python2.7/site-packages/telomerehunter/plot_spectrum_simple.R
+telomereHunter/lib/python2.7/site-packages/telomerehunter/singleton_plot.R
+telomereHunter/lib/python2.7/site-packages/telomerehunter/plot_unmapped_summary_simple.R
+telomereHunter/lib/python2.7/site-packages/telomerehunter/check_R_libraries.R
+telomereHunter/lib/python2.7/site-packages/telomerehunter/combine_plots.R
+telomereHunter/lib/python2.7/site-packages/telomerehunter/plot_spectrum_summary.R
+telomereHunter/lib/python2.7/site-packages/telomerehunter/TVR_plot.R
+telomereHunter/lib/python2.7/site-packages/telomerehunter/normalize_TVR_counts.R
+telomereHunter/lib/python2.7/site-packages/telomerehunter/plot_spectrum.R
+telomereHunter/lib/python2.7/site-packages/telomerehunter/functions_for_plots.R
+telomereHunter/lib/python2.7/site-packages/telomerehunter/plot_gc_content.R
+
+Some of them have already load ggplot2 but some have not.
+
+Add "library(ggplot2)" to every R scripts is recommanded.
