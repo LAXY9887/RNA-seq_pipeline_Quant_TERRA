@@ -1,0 +1,17 @@
+#!/bin/bash
+
+## Script path
+SCRIPT_PATH=./
+
+## Specify target script
+target_script=*.R
+
+## Get current conda enviroment
+RSCRIPT_PATH=$(conda run which Rscript)
+
+## Change the shebang of the script
+sed -i "1s#.*#\#!${RSCRIPT_PATH}#" $target_script
+
+## Run the script
+# ${SCRIPT_PATH}/${target_script}
+
