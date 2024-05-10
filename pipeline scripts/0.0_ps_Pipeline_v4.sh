@@ -11,12 +11,12 @@ isDump=$2
 fqPath=$3
 
 ## Please change the workdir in configure file!
-workdir="../"
+workdir="/staging/biology/ls807terra/pipeline_TERRAPCR"
 
 ## TERRA quantification region files
-qRegion="/staging/biology/ls807terra/0_bedfiles/hTERRA/CHM13_TERRA_region_v6.bed"
+qRegion="../CHM13_TERRA_region_v7.bed"
 qGTF="/staging/biology/ls807terra/0_genomes/genome_gtf/CHM13/CHM13_v2.0.gtf"
-cytoband="/staging/biology/ls807terra/0_bedfiles/hTERRA/chm13v2.0_cytobands_allchrs_Add_TERRA_v3.bed"
+cytoband="../chm13v2.0_cytobands_allchrs_Add_TERRA_v4.bed"
 teloSeq_ref="./s.teloseq_v2.fa"
 
 ## A function to create folder

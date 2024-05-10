@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## Softwares
-htseq="/staging/biology/ls807terra/0_Programs/anaconda3/envs/RNAseq_quantTERRA/bin/htseq-count"
+htseq="/home/u404x404u/anaconda3/envs/RNAseq_quantTERRA_env/bin/htseq-count"
 
 ## User variable
 BAM=$1
